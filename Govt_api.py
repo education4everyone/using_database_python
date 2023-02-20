@@ -6,7 +6,7 @@ import urllib.parse
 import json
 import ssl
 
-# Here are ssl certificate.....
+# Here are ssl certificate........
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
